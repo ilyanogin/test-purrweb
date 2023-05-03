@@ -1,0 +1,1582 @@
+body{
+    background-color: black;
+   width: 100%;
+   max-width: 1450px;
+   
+}
+/*First*/
+.container_start{
+    position:relative ;
+    width: 100%;
+    height: 100%;
+}
+.logo_start{
+    position: absolute;
+    position: absolute;
+width: 107px;
+height: 109px;
+left: 85px;
+top: 23px;
+background-image: url(./images/Cube\ new\ version-05\ 1.png);
+}
+.logo_text{
+    position: absolute;
+width: 96px;
+height: 24.75px;
+left: 200px;
+top: 69px;
+background-image: url(./images/NoTab.png);
+}
+.sign_icon{
+    position: absolute;
+    height: 24.990398406982422px;
+width: 26px;
+left: 404px;
+top: 69px;
+border-radius: 0px;
+    background-image: url(./images/iconlogin.png);
+}
+.Login{
+    margin-left: 40px;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    color: aliceblue;
+    text-decoration: none;
+}
+.Login:hover{
+    text-decoration: underline;
+}
+.blur_start{
+    position: absolute;
+    width: 195.63px;
+    height: 683.03px;
+    left: 1020px;
+    top: -206px;
+background: rgba(250, 0, 255, 0.2);
+filter: blur(125px);
+transform: rotate(-105.26deg);
+}
+.iphone_start{
+    position: absolute;
+    width: 332.88px;
+    height: 667.8px;
+    width: 332.88px;
+    height: 667.8px;
+    left: 1025px;
+    top: 150px;
+    
+    background-image: url(./images/iphone.png);
+    background-size: cover;
+}
+.txt_start1{
+    position: absolute;
+    width: 643px;
+    height: 140px;
+    left: 100px;
+    top: 275px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 70px;
+    /* or 109% */
+    
+    display: flex;
+    align-items: flex-end;
+    
+    color: #FFFFFF;
+}
+.elipse{
+    position: absolute;
+width: 125px;
+height: 125px;
+left: 93px;
+top: 470px;
+
+background: rgba(96, 92, 234, 0.5);
+filter: blur(50px);
+}
+.line{
+    position: absolute;
+width: 139.43px;
+height: 0px;
+left: 60px;
+top: 550px;
+
+border: 4px solid #FFFFFF;
+transform: rotate(120.61deg);
+}
+.txt_start2{
+    position: absolute;
+width: 380px;
+height: 81px;
+left: 205px;
+top: 544px;
+
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 27px;
+display: flex;
+align-items: flex-end;
+
+color: #FFFFFF;
+}
+.txt_start3{
+    position: absolute;
+width: 413px;
+height: 70px;
+left: 100px;
+top: 892px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 35px;
+line-height: 70px;
+/* identical to box height, or 200% */
+
+display: flex;
+align-items: flex-end;
+
+color: #FFFFFF;
+}
+.App_start{
+    position: absolute;
+width: 376px;
+height: 51.33px;
+left: 66.57%;
+top: 901px;
+
+
+}
+.appstore{
+    display: flex;
+flex-direction: row;
+    position: absolute;
+    height: 51.325836181640625px;
+    width: 163.53492736816406px;
+    border-radius: 0px;
+background-image: url(./images/Apstor.png);
+}
+.playmarket{
+    margin-left: 191.5px;
+    height: 51.325836181640625px;
+width: 184.49984741210938px;
+border-radius: 0px;
+background-image: url(./images/Googleplay.png);
+}
+/* coockie */
+.container_coockie{
+    position: relative;
+width: 100%;
+height: 93px;
+  justify-content: space-between;
+  align-items: flex-end;
+  position: fixed;
+  bottom: 5px;
+background: #212834;
+}
+.hidden{
+    animation: fade 3s ease forwards;
+}
+@keyframes fade {
+    from {
+      opacity: 1;
+      visibility: visible;
+    }
+    to {
+      opacity: 0;
+      visibility: hidden;
+    }
+  }
+.footer{
+    opacity: 0;
+  animation: ani 2.5s forwards;
+}
+@keyframes ani {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+  }
+.coockie_text{
+    position: absolute;
+width: 611px;
+height: 19px;
+left: 100px;
+top: 36px;
+
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+.coockie_but{
+    position: absolute;
+width: 132px;
+height: 50px;
+left: 1284px;
+top: 21px;
+
+background: rgba(255, 255, 255, 0.1);
+border: 0.5px solid #FFFFFF;
+border-radius: 6px;
+
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+text-align: center;
+
+color: #FFFFFF;
+}
+.coockie_but:hover{
+    background-color: #BFBFBF;
+}
+/* Second*/
+.container_two{
+    position:relative ;
+    width: 100%;
+    height: 100%; 
+    top: 1070px;
+}
+.Block_one{
+    position: absolute;
+    height: 312px;
+width: 503px;
+left: 176px;
+top: 61px;
+border-radius: 21.367082595825195px;
+border: 2px solid rgba(255, 255, 255, 0.5);
+border-radius: 21.3671px;
+}
+.Block_two{
+    position: absolute;
+    height: 312px;
+width: 503px;
+left: 760px;
+top: 61px;
+border-radius: 21.367082595825195px;
+border: 2px solid rgba(255, 255, 255, 0.5);
+border-radius: 21.3671px;
+}
+.blur_1{
+    position: absolute;
+    width: 85px;
+    height: 85px;
+    left: 1116px;
+    top: 616px;
+    
+    background: #F101BF;
+    opacity: 0.7;
+    filter: blur(50px);
+}
+.text_one_one{
+    position: absolute;
+width: 375px;
+height: 123px;
+left: 55px;
+top: 64px;
+
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 41px;
+display: flex;
+align-items: flex-end;
+
+color: #FFFFFF;
+}
+.text_one_mail{
+    position: absolute;
+width: 232px;
+height: 33px;
+left: 55px;
+top: 217px;
+
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 33px;
+/* identical to box height */
+
+text-decoration-line: none;
+
+color: #FFFFFF;
+}
+.text_one_mail:hover{
+    text-decoration: underline;
+}
+.text_two_one{
+    position: absolute;
+width: 325px;
+height: 46.22px;
+left: 55px;
+top: 97px;
+
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 41px;
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+
+}
+.text_two_log{
+    position: absolute;
+width: 88.11px;
+height: 44.78px;
+left: 55px;
+top: 173px;
+
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 33px;
+text-decoration-line:none;
+
+color: #FFFFFF;
+}
+.text_two_log:hover{
+    text-decoration: underline;
+}
+.iphone_two{
+    position: absolute;
+width: 498px;
+height: 999.06px;
+left: 0;
+top: 300px;
+
+transform: rotate(90deg);
+background-image: url(./images/iphone.png);
+background-size: cover;
+}
+.cont_text1{
+    position: absolute;
+width: 358px;
+height: 124px;
+left: 919px;
+top: 609px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 51px;
+line-height: 62px;
+display: flex;
+align-items: flex-end;
+
+color: #FFFFFF;
+
+}
+.cont_text2{
+    position: absolute;
+width: 315px;
+height: 175px;
+left: 919px;
+top: 756px;
+
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+display: flex;
+align-items: flex-end;
+
+color: #FFFFFF;
+}
+/* three */
+.back_images{
+    position: absolute;
+width: 1440px;
+height: 836px;
+left: 0px;
+top: 2495px;
+background-image: url(./images/louis-hansel-shotsoflouis-_6ZqQc02NYc-unsplash.png);
+background-size: cover;
+}
+.rectangle{
+    position: absolute;
+width: 1450px;
+height: 1060px;
+left: 0px;
+top: 2470px;
+
+background: linear-gradient(179.83deg, #000000 -3.1%, rgba(0, 0, 0, 0) 56.76%, #000000 83.92%);
+}
+.iphone_11{
+    position: absolute;
+width: 332.56px;
+height: 667.15px;
+left: 100px;
+top: 2937px;
+background-image: url(./images/iphone11.png);
+background-size: cover;
+}
+.iphone_22{
+    position: absolute;
+width: 332.56px;
+height: 667.15px;
+left: 482px;
+top: 2937px;
+background-image: url(./images/iphone22.png);
+background-size: cover;
+}
+.text_content{
+    position: absolute;
+width: 400px;
+height: 62px;
+left: 943px;
+top: 3324px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 51px;
+line-height: 62px;
+display: flex;
+align-items: flex-end;
+
+color: #FFFFFF;
+}
+.text_content2{
+    position: absolute;
+    width: 316px;
+    height: 125px;
+    left: 943px;
+    top: 3409px;
+    
+    /* 1 */
+    
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    display: flex;
+    align-items: flex-end;
+    
+    color: #FFFFFF;
+}
+.text_content3{
+    position: absolute;
+width: 497px;
+height: 62px;
+left: 100px;
+top: 3898px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 51px;
+line-height: 62px;
+display: flex;
+align-items: flex-end;
+
+color: #FFFFFF;
+}
+.text_content4{
+    position: absolute;
+width: 395px;
+height: 119px;
+left: 101px;
+top: 3983px;
+
+/* 1 */
+
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+}
+.blur_2{
+    height: 438.35394387857247px;
+width: 426.2084665557363px;
+left: -66.863525390625px;
+top: 3708px;
+border-radius: 0px;
+    background: linear-gradient(12.08deg, #F101BF 2.82%, #0066FF 97.06%);
+opacity: 0.1;
+filter: blur(125px);
+transform: rotate(5.78deg);
+}
+.img_1{
+    position: absolute;
+    width: 252.24px;
+    height: 150.05px;
+    left: 934.26px;
+    top: 3809px; 
+    background-image: url(./images/graph.png);
+    background-size: cover;
+}
+.img_2{
+    position: absolute;
+width: 182.49px;
+height: 193.03px;
+left: 1058.36px;
+top: 3991.49px;
+background-image: url(./images/ligh.png);
+background-size: cover;
+}
+.img_3{
+    position: absolute;
+width: 192.22px;
+height: 114.36px;
+left: 622px;
+top: 4058.81px;
+    background-image: url(./images/graph3.png);
+    background-size: cover;
+}
+.img_4{
+    position: absolute;
+    width: 193.85px;
+    height: 117.61px;
+    left: 803.68px;
+    top: 4202.37px;
+background-image: url(./images/graph4.png);
+background-size: cover;
+}
+.img_5{
+position: absolute;
+width: 193.85px;
+height: 117.61px;
+left: 876.68px;
+top: 4101.8px;
+background-image:url(./images/graph2.png) ;
+background-size: cover;
+}
+.img_6{
+    position: absolute;
+    height: 45.351280212402344px;
+    width: 45.35100555419922px;
+    left: 754px;
+    top: 3993px;
+    border-radius: 0px;  
+    background-image: url(./images/ball1.png);  
+}
+.img_7{
+    position: absolute;
+    height: 45.35100555419922px;
+    width: 45.35100555419922px;
+    left: 816.26513671875px;
+    top: 3993px;
+    border-radius: 0px;
+    background-image:url(./images/ball2.png); 
+}
+.img_8{
+    position: absolute;
+    height: 45.35100555419922px;
+width: 45.35100555419922px;
+left: 877.77392578125px;
+top: 3993px;
+border-radius: 0px;
+background-image:url(./images/ball3.png); 
+}
+.img_9{
+    position: absolute;
+    height: 45.35100555419922px;
+width: 45.35100555419922px;
+left: 941.8935546875px;
+top: 3993px;
+border-radius: 0px;
+background-image:url(./images/ball4.png); 
+}
+.img_10{
+    position: absolute;
+    height: 56.206077575683594px;
+    width: 56.20611572265625px;
+    left: 1044px;
+    top: 4275px;
+    border-radius: 0px;
+   background-image: url(./images/sircle1.png); 
+   background-size: cover;
+}
+.img_11{
+    position: absolute;
+    height: 56.206077575683594px;
+width: 56.206077575683594px;
+left: 1118.710205078125px;
+top: 4275px;
+border-radius: 0px;
+background-image: url(./images/sircle2.png); 
+}
+.img_12{
+    position: absolute;
+    height: 56.206077575683594px;
+width: 56.206077575683594px;
+left: 1196.70556640625px;
+top: 4275px;
+border-radius: 0px;
+background-image: url(./images/sircle3.png); 
+}
+.img_13{
+    position: absolute;
+    height: 56.206077575683594px;
+width: 56.206077575683594px;
+left: 1268.9267578125px;
+top: 4275px;
+border-radius: 0px;
+background-image: url(./images/sircle4.png); 
+}
+.img_txt10_1{
+    position: absolute;
+    top: 11px;
+    left: 17px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 6.30804px;
+    line-height: 7px;
+    /* identical to box height */
+    
+    
+    color: #F5F7F6;
+
+}
+.img_txt10_2{
+    position: absolute;
+top: 20px;
+left: 17px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 13.381px;
+line-height: 16px;
+/* identical to box height */
+
+
+color: #F5F7F6;
+}
+.img_txt11_1{
+    position: absolute;
+    top: 11px;
+    left: 17px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 6.30804px;
+    line-height: 7px;
+    /* identical to box height */
+    
+    
+    color: #F5F7F6;
+
+}
+.img_txt11_2{
+    position: absolute;
+top: 20px;
+left: 17px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 13.381px;
+line-height: 16px;
+/* identical to box height */
+
+
+color: #F5F7F6;
+}
+.img_txt12_1{
+    position: absolute;
+    top: 11px;
+    left: 17px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 6.30804px;
+    line-height: 7px;
+    /* identical to box height */
+    
+    
+    color: #F5F7F6;
+
+}
+.img_txt12_2{
+    position: absolute;
+top: 20px;
+left: 17px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 13.381px;
+line-height: 16px;
+/* identical to box height */
+
+
+color: #F5F7F6;
+}
+.img_txt13_1{
+    position: absolute;
+    top: 11px;
+    left: 17px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 6.30804px;
+    line-height: 7px;
+    /* identical to box height */
+    
+    
+    color: #F5F7F6;
+
+}
+.img_txt13_2{
+    position: absolute;
+top: 20px;
+left: 17px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 13.381px;
+line-height: 16px;
+/* identical to box height */
+
+
+color: #F5F7F6;
+}
+/* four */
+.back_images1{
+    position: absolute;
+width: 811px;
+height: 606px;
+left: -33px;
+top: 4554px;
+background: url(./images/marcela-laskoski-YrtFlrLo2DQ-unsplash.png);
+background-size: cover;
+}
+.back_images2{
+    position: absolute;
+width: 650px;
+height: 617px;
+left: 805px;
+top: 4554px;
+
+background: url(./images/ash-edmonds-fsI-_MRsic0-unsplash.png);
+border-radius: 7.97735px 7.97735px 0px 0px;
+background-size: cover;
+}
+.rectangle_2{
+    position: absolute;
+width: 100%;
+height: 682px;
+left: 0px;
+top: 4554px;
+
+background: linear-gradient(179.83deg, #000000 -3.1%, rgba(0, 0, 0, 0) 56.76%, #000000 83.92%);
+}
+.nightlife{
+    position: absolute;
+width: 138.61px;
+height: 75px;
+left: 1199px;
+top: 4500.81px;
+
+background-image: url(./images/Nightlife.png);
+background-size: cover;
+transform: rotate(-12.84deg)
+}
+.text_content5{
+    position: absolute;
+width: 226px;
+height: 62px;
+left: 181px;
+top: 5091px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 51px;
+line-height: 62px;
+display: flex;
+align-items: flex-end;
+
+color: #FFFFFF;
+}
+.text_content6{
+    position: absolute;
+width: 315px;
+height: 125px;
+left: 181px;
+top: 5176px;
+
+/* 1 */
+
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+display: flex;
+align-items: flex-end;
+
+color: #FFFFFF;
+}
+.App_4{
+    position: absolute;
+width: 376px;
+height: 51.33px;
+left: 182px;
+top: 5359px;
+}
+.iphone_33{
+    position: absolute;
+    width: 332.56px;
+    height: 667.15px;
+    left: 638px;
+    top: 4774px;
+background-image: url(./images/iphone33.png);    
+background-size: cover;
+}
+.iphone_44{
+    position: absolute;
+width: 332.56px;
+height: 667.15px;
+left: 1051px;
+top: 5115px;
+background-image: url(./images/iphone44.png);
+background-size: cover;
+}
+/* Five */
+.blur_3{
+    position: absolute;
+    height: 952.0681982160936px;
+width: 1022.4529609513412px;
+left: 213px;
+top: 5686.784912109375px;
+border-radius: 476.03411865234375px;
+background: linear-gradient(12.08deg, #F101BF 2.82%, #0066FF 97.06%);
+opacity: 0.15;
+filter: blur(155.784px);
+border-radius: 476.034px;
+transform: rotate(-0.55deg);
+}
+.text_shadow_1{
+    position: absolute;
+width: 648px;
+height: 164.06px;
+top: 5932.22px;
+
+
+opacity: 0.5;
+background-image: url(./images/NOTAB1.png);
+}
+.text_shadow_2{
+    position: absolute;
+width: 465px;
+height: 164.06px;
+top: 6263.22px;
+background-image: url(./images/NOTAB2.png);
+opacity: 0.5;
+}
+.text_shadow_3{
+    position: absolute;
+width: 636px;
+height: 164.06px;
+left: 821.5px;
+top: 5932.22px;
+background-image: url(./images/NOTAB3.png);
+opacity: 0.5;
+}
+.text_shadow_4{
+    position: absolute;
+width:485px;
+height: 164.06px;
+left: 970.5px;
+top: 6219.22px;
+background-image: url(./images/NOTAB4.png);
+opacity: 0.5;
+}
+.iphone_55{
+    position: absolute;
+width: 332.56px;
+height: 667.15px;
+left: 563px;
+top: 5824px;
+background-image: url(./images/iphone55.png);
+background-size: cover;
+}
+.text_content7{
+    position: absolute;
+width: 155px;
+height: 26px;
+left: 1025px;
+top: 6108px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 21px;
+line-height: 26px;
+/* identical to box height */
+
+display: flex;
+align-items: flex-end;
+
+color: #FFFFFF;
+}
+.text_content8{
+    position: absolute;
+width: 381px;
+height: 124px;
+left: 100px;
+top: 6571px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 51px;
+line-height: 62px;
+display: flex;
+align-items: flex-end;
+
+color: #FFFFFF;
+}
+.text_content9{
+    position: absolute;
+width: 292px;
+height: 50px;
+left: 1048px;
+top: 6608px;
+
+/* 1 */
+
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+display: flex;
+align-items: flex-end;
+
+color: #FFFFFF;
+}
+.arrow{
+    box-sizing: border-box;
+
+position: absolute;
+width: 100.29px;
+height: 30.48px;
+left: 945px;
+top: 6066.2px;
+background-image: url(./images/Arrow\ 1.png);
+background-size: cover;
+}
+/* Six */
+.text_content10{
+    position: absolute;
+width: 421px;
+height: 124px;
+left: 859px;
+top: 6887px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 51px;
+line-height: 62px;
+display: flex;
+align-items: flex-end;
+
+color: #FFFFFF;
+}
+.blur_0{
+    position: absolute;
+    height: 267.16912903200955px;
+width: 286.920471850842px;
+left: 1120.900391px;
+top: 7054px;
+border-radius: 0px;
+background: linear-gradient(12.08deg, #F101BF 2.82%, #0066FF 97.06%);
+opacity: 0.2;
+filter: blur(125px);
+transform: rotate(5.78deg);
+}
+.text_content11{
+    position: absolute;
+width: 365px;
+height: 25px;
+left: 864px;
+top: 7034px;
+
+/* 1 */
+
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+/* identical to box height */
+
+display: flex;
+align-items: flex-end;
+
+color: #FFFFFF;
+}
+.back_images3{
+    position: absolute;
+width: 868px;
+height: 1038.21px;
+left: 311px;
+top: 7059px;
+background-image: url(./images/iPhone\ XS\ Longscroll\ Mockup\ 1.png);
+background-size: cover;
+}
+.cloud_text1{
+    box-sizing: border-box;
+
+position: absolute;
+width: 266.78px;
+height: 98.81px;
+left: 786px;
+top: 7263px;
+
+background: #000000;
+border: 0.76007px solid rgba(255, 255, 255, 0.5);
+border-radius: 18.2417px;
+
+
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 22.8021px;
+line-height: 27px;
+display: flex;
+align-items:center;
+padding-left: 15px;
+color: #FFFFFF;
+}
+.cloud_text2{
+    box-sizing: border-box;
+
+position: absolute;
+width: 285px;
+height: 113px;
+left: 287px;
+top: 7418px;
+
+background: #000000;
+border: 0.76007px solid rgba(255, 255, 255, 0.5);
+border-radius: 18.2417px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 22.8021px;
+line-height: 27px;
+display: flex;
+align-items:center;
+padding-left: 15px;
+color: #FFFFFF;
+}
+.cloud_text3{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 185px;
+    height: 91px;
+    left: 1006px;
+    top: 7698px;
+    
+    background: #000000;
+    border: 0.76007px solid rgba(255, 255, 255, 0.5);
+    border-radius: 18.2417px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22.8021px;
+    line-height: 27px;
+    display: flex;
+    align-items:center;
+    padding-left: 15px;
+    color: #FFFFFF;
+    box-sizing: border-box;
+
+}
+.cloud_text4{
+    position: absolute;
+    width: 175.58px;
+    height: 65.37px;
+    left: 509px;
+    top: 7789px;
+    
+    background: #000000;
+    border: 0.76007px solid rgba(255, 255, 255, 0.5);
+    border-radius: 18.2417px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22.8021px;
+    line-height: 27px;
+    display: flex;
+    align-items:center;
+    padding-left: 15px;
+    color: #FFFFFF;
+}
+/* Seven */
+.notab{
+    position: absolute;
+    width: 1440px;
+    height: 1106px;
+    top: 8027px;
+    background-image: url(./images/Notabb.png);
+}
+.iphone_66{
+    position: absolute;
+    height: 428px;
+width:858px;
+left: 292px;
+top: 329px;
+border-radius: 0px;
+background-image: url(./images/iPhone\ X\ image.png);
+
+}
+.rectangle_3{
+    position: absolute;
+width: 835px;
+height: 402px;
+left: 312px;
+    top: 329px;
+
+background: #000000;
+border-radius: 57px;
+}
+.screen_iphone66{
+    position: absolute;
+width: 675.46px;
+height: 377.87px;
+left: 385px;
+top: 355px;
+
+background: url(./images/Screenshot\ 2020-09-17\ at\ 11.49.png);
+}
+/* Form */
+.text_content12{
+    position: absolute;
+width: 337px;
+height: 62px;
+left: 551px;
+top: 9093px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 51px;
+line-height: 62px;
+display: flex;
+align-items: flex-end;
+
+color: #FFFFFF;
+}
+.text_content13{
+    position: absolute;
+width: 580px;
+height: 50px;
+left: 430px;
+top: 9178px;
+
+/* 1 */
+
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+display: flex;
+align-items: flex-end;
+text-align: center;
+
+color: #FFFFFF;
+
+}
+.inp_1{
+    box-sizing: border-box;
+
+position: absolute;
+width: 818px;
+height: 83px;
+left: 311px;
+top: 9310px;
+padding-left: 20px;
+background: #FFFFFF;
+border: 1px solid #5C5C5C;
+border-radius: 10px;
+
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+
+
+color: #BFBFBF;
+}
+.invalid{
+    border: 2px solid red;
+}
+.inp_2{
+    box-sizing: border-box;
+
+position: absolute;
+width: 818px;
+height: 83px;
+left: 311px;
+top: 9416px;
+padding-left: 20px;
+background: #FFFFFF;
+border: 1px solid #5C5C5C;
+border-radius: 10px;
+
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+
+
+color: #BFBFBF;
+}
+.invalid{
+    border: 2px solid red;
+}
+.inp_3{
+    box-sizing: border-box;
+
+position: absolute;
+width: 397px;
+height: 83px;
+left: 311px;
+top: 9522px;
+padding-left: 20px;
+background: #FFFFFF;
+border: 1px solid #5C5C5C;
+border-radius: 10px;
+
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+
+
+color: #BFBFBF;
+}
+.invalid{
+    border: 2px solid red;
+}
+.inp_4{
+    box-sizing: border-box;
+
+position: absolute;
+width: 397px;
+height: 83px;
+left: 732px;
+top: 9522px;
+padding-left: 20px;
+background: #FFFFFF;
+border: 1px solid #5C5C5C;
+border-radius: 10px;
+
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+
+
+color: #BFBFBF;
+}
+.invalid{
+    border: 2px solid red;
+}
+.inp_5{
+    box-sizing: border-box;
+
+position: absolute;
+width: 818px;
+height: 83px;
+left: 311px;
+top: 9628px;
+padding-left: 20px;
+background: #FFFFFF;
+border: 1px solid #5C5C5C;
+border-radius: 10px;
+
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+
+
+color: #BFBFBF;
+}
+.invalid{
+    border: 2px solid red;
+}
+.inp_6{
+    box-sizing: border-box;
+
+position: absolute;
+width: 818px;
+height: 83px;
+left: 311px;
+top: 9734px;
+padding-left: 20px;
+background: #FFFFFF;
+border: 1px solid #5C5C5C;
+border-radius: 10px;
+
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+
+
+color: #BFBFBF;
+}
+.invalid{
+    border: 2px solid red;
+}
+.inp_7{
+    box-sizing: border-box;
+
+position: absolute;
+width: 818px;
+height: 199px;
+left: 311px;
+top: 9840px;
+padding-left: 20px;
+padding-top: 10px;
+background: #FFFFFF;
+border: 1px solid #5C5C5C;
+border-radius: 10px;
+
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+/* identical to box height */
+
+display: flex;
+align-items: flex-start;
+
+
+color: #BFBFBF;
+}
+.invalid{
+    border: 2px solid red;
+}
+.send{
+    box-sizing: border-box;
+
+position: absolute;
+width: 398px;
+height: 80px;
+left: 521px;
+top: 10099px;
+
+background: #000000;
+border: 1px solid #FFFFFF;
+border-radius: 10px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+display: flex;
+align-items:center;
+text-align: center;
+justify-content: center;
+
+color: #FFFFFF;
+
+}
+.send:hover{
+    background-color: #5C5C5C;
+}
+.blur_4{
+    position: absolute;
+    height: 250.44995174748973px;
+width: 247.04084834609984px;
+left: 357.217041015625px;
+top: 9017px;
+border-radius: 0px;
+background: linear-gradient(12.08deg, #F101BF 2.82%, #0066FF 97.06%);
+opacity: 0.3;
+filter: blur(125px);
+transform: rotate(5.78deg);
+}
+.blur_5{
+    position:absolute;
+    height: 341.4227913120434px;
+width: 200px;
+left: 1225.376953125px;
+top: 9811px;
+border-radius: 0px;
+    background: linear-gradient(12.08deg, #F101BF 2.82%, #0066FF 97.06%);
+opacity: 0.3;
+filter: blur(125px);
+transform: rotate(5.78deg);
+}
+.blur_6{
+    position: absolute;
+    height: 250px;
+width: 405.9924630913047px;
+left: -17.557861328125px;
+top: 10473px;
+border-radius: 0px;
+background: linear-gradient(12.08deg, #F101BF 2.82%, #0066FF 97.06%);
+opacity: 0.3;
+filter: blur(125px);
+transform: rotate(5.78deg);
+}
+.text_content14{
+    position: absolute;
+width: 270px;
+height: 33px;
+left: 585px;
+top: 10270px;
+
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 33px;
+/* identical to box height */
+
+letter-spacing: 0.03em;
+
+color: #FFFFFF;
+}
+.text_content15{
+    position: absolute;
+width: 171px;
+height: 50px;
+left: 99px;
+top: 10604px;
+
+font-family: 'Avenir';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 25px;
+
+color: #FFFFFF;
+}
+.text_content16{
+    position: absolute;
+width: 148px;
+height: 25px;
+left: 100px;
+top: 10673.15px;
+
+font-family: 'Avenir';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 25px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+.text_content17{
+    position: absolute;
+width: 107px;
+height: 25px;
+left: 1225px;
+top: 10567px;
+
+font-family: 'Avenir';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 25px;
+/* identical to box height */
+
+text-align: right;
+color: #FFFFFF;
+}
+.text_content18{
+    position: absolute;
+width: 115px;
+height: 25px;
+left: 1225px;
+top: 10617px;
+
+font-family: 'Avenir';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 25px;
+/* identical to box height */
+
+text-align: right;
+
+color: #FFFFFF;
+}
+.App_8{
+    position: absolute;
+width: 610.13px;
+height: 81.27px;
+left: 415px;
+top: 10335.73px;
+
+}
+.appstore_8{
+    position: absolute;
+    height: 81.26732635498047px;
+    width: 258.934814453125px;
+    left: 415px;
+    top: 10335.732421875px;
+    border-radius: 0px;    
+background-image: url(./images/Apstor.png);
+background-size: cover;
+}
+.playmarket_8{
+ position: absolute;
+ height: 81.26732635498047px;
+ width: 292.1298522949219px;
+ left: 733px;
+ top: 10335.732421875px;
+ border-radius: 0px; 
+background-image: url(./images/Googleplay.png);
+background-size: cover;
+}
+.NoTabimg{
+    position: absolute;
+width: 81.01px;
+height: 16.15px;
+left: 99px;
+top: 10572px;
+background-image: url(./images/Notabimg.png);
+background-size: cover;
+}
